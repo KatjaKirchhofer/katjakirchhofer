@@ -8,4 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AppComponent {
   
   //javascript hier: 
+  sayHello(){
+    console.log("Hallo");
+  }
 }
