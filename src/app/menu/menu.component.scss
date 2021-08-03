@@ -1,0 +1,28 @@
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 120px;
+
+    img {
+        height: 50px;
+        filter: invert(1);
+    }
+    a {
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        margin-left: 32px;
+        cursor: pointer;
+    }
+    a:hover {
+        font-weight: 600;
+        text-decoration: underline;
+        color: rgba(255,255,255,0.8);
+    }
+}
