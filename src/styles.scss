@@ -1,5 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
+h1 {
+    margin: 0;
+    padding-bottom: 0;
+}
+p{
+    padding: 0 30px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin: 0;
+
+}
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38,5px;
+    margin: 0;
+}
+h4 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
 }

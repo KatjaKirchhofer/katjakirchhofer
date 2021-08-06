@@ -3,19 +3,20 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 5vh;
     z-index: 10;
     display: flex;
     justify-content: space-between;
-    padding: 30px 120px;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #000000;
 
     img {
-        height: 50px;
+        height: 40px;
         // filter: invert(1);
     }
     img:hover {
         cursor: pointer;
-        height: 55px;
+        height: 45px;
     }
     a {
         align-items: center;
@@ -29,17 +30,8 @@ header {
         text-decoration: underline;
         color: rgba(255,255,255,0.8);
     }
+    .menu-icon {
+        height: 30px;
+    } 
 }
-.darkLinks {
-    a {
-        color: black;
-        &:hover {
-            color: rgba(0,0,0,0.8);
-            font-weight: bold;
-        }
-    }
-}
-.headerDark {
-    background-color: white;
-    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.2);
-}
+

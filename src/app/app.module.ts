@@ -8,6 +8,9 @@ import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { FooterComponent } from './footer/footer.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { DiscriptionComponent } from './discription/discription.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { FooterComponent } from './footer/footer.component';
     MenuComponent,
     ImprintComponent,
     DataProtectionComponent,
-    FooterComponent
+    FooterComponent,
+    AboutMeComponent,
+    ExperienceComponent,
+    DiscriptionComponent
   ],
   imports: [
     BrowserModule,
