@@ -8,7 +8,7 @@ import { MenuComponent } from './menu/menu.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { FooterComponent } from './footer/footer.component';
-import { AboutMeComponent } from './about-me/about-me.component';
+import { IntroComponent } from './intro/intro.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { DiscriptionComponent } from './discription/discription.component';
 
@@ -20,7 +20,7 @@ import { DiscriptionComponent } from './discription/discription.component';
     ImprintComponent,
     DataProtectionComponent,
     FooterComponent,
-    AboutMeComponent,
+    IntroComponent,
     ExperienceComponent,
     DiscriptionComponent
   ],

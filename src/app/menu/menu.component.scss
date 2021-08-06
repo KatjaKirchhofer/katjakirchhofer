@@ -18,20 +18,34 @@ header {
         cursor: pointer;
         height: 45px;
     }
-    a {
-        align-items: center;
-        color: white;
-        text-decoration: none;
-        margin-left: 32px;
-        cursor: pointer;
-    }
-    a:hover {
-        font-weight: 600;
-        text-decoration: underline;
-        color: rgba(255,255,255,0.8);
-    }
+  
     .menu-icon {
         height: 30px;
     } 
+    .menu-links {
+        display: none;
+    }
+}
+@media(min-width: 500px) {
+    header {
+        .menu-icon {
+            display: none;
+        }
+        a {
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            margin-left: 32px;
+            cursor: pointer;
+        }
+        a:hover {
+            font-weight: 600;
+            text-decoration: underline;
+            color: rgba(255,255,255,0.8);
+        }
+        .menu-links {
+            display: unset;
+        }
+    }
 }
 
