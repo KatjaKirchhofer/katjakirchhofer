@@ -1,11 +1,11 @@
 .footer {
     height: 10vh;
-    padding: 10px 30px;
+    padding: 0.625rem 0.9rem;
     background-color: #181823;
  
    
     img {
-        height: 40px;
+        height: 2.5rem;
     }
     .link-container {
         display: flex;
@@ -18,11 +18,11 @@
             align-items: center;
             color: #8491A0;
             text-decoration: none;
-            padding: 30px;
+            padding: 1.875rem;
             cursor: pointer;
             font-weight: 400;
-            font-size: 16px;
-            line-height: 24px;
+            font-size: 1em;
+            line-height: 1.5em;
             display: block;
         }
         a:hover {
