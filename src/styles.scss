@@ -4,13 +4,15 @@ body {
     font-family: 'Karla', sans-serif;
     color: white;
 }
+.container-padding {
+    padding: 50px 30px 50px 30px;
+}
 
 h1 {
     margin: 0;
     padding-bottom: 0;
 }
 p{
-    padding: 0 30px;
     font-size: 18px;
     font-weight: 400;
     line-height: 27px;
