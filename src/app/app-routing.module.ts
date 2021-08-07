@@ -5,7 +5,7 @@ import { SlideshowComponent } from './slideshow/slideshow.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { IntroComponent } from './intro/intro.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { DiscriptionComponent } from './discription/discription.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 const routes: Routes = [
   { path: '', component: SlideshowComponent},
@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'data-protection', component: DataProtectionComponent},
   { path: 'intro', component: IntroComponent},
   { path: 'expercience', component: ExperienceComponent},
-  { path: 'discription', component: DiscriptionComponent}
+  { path: 'about-me', component: AboutMeComponent}
 ];
 
 @NgModule({

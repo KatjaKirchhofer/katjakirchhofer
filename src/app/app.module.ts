@@ -10,7 +10,8 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { FooterComponent } from './footer/footer.component';
 import { IntroComponent } from './intro/intro.component';
 import { ExperienceComponent } from './experience/experience.component';
-import { DiscriptionComponent } from './discription/discription.component';
+import { AboutMeComponent } from './about-me/about-me.component';
+import { SkillsetComponent } from './skillset/skillset.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DiscriptionComponent } from './discription/discription.component';
     FooterComponent,
     IntroComponent,
     ExperienceComponent,
-    DiscriptionComponent
+    AboutMeComponent,
+    SkillsetComponent
   ],
   imports: [
     BrowserModule,
