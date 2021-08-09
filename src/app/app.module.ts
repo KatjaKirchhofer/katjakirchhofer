@@ -12,6 +12,10 @@ import { IntroComponent } from './intro/intro.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillsetComponent } from './skillset/skillset.component';
+import { MyProjectsComponent } from './my-projects/my-projects.component';
+import { GithubComponent } from './github/github.component';
+import { TechnologiesComponent } from './technologies/technologies.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +28,11 @@ import { SkillsetComponent } from './skillset/skillset.component';
     IntroComponent,
     ExperienceComponent,
     AboutMeComponent,
-    SkillsetComponent
+    SkillsetComponent,
+    MyProjectsComponent,
+    GithubComponent,
+    TechnologiesComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

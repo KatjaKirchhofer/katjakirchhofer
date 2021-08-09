@@ -6,11 +6,11 @@
    
     img {
         height: 2.5rem;
+        padding-bottom: 50px;
     }
     .link-container {
         display: flex;
         background-color: #181823;
-        width: 100vw;
         padding-left: 0; 
         // ???????
 
@@ -29,6 +29,27 @@
             font-weight: 600;
             text-decoration: underline;
             color: rgba(255,255,255,0.8);
+        }
+    }
+    .menu-links {
+        background-color: #181823;
+        width: 100%;
+        margin: 0;
+        a {
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            padding: 1.875rem;
+            cursor: pointer;
+            font-weight: 400;
+            font-size: 1em;
+            line-height: 1.5em;
+            display: flex;
+        }
+        a:hover {
+            font-weight: 600;
+            text-decoration: underline;
+            color: #8491A0;
         }
     }
 }

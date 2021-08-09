@@ -1,11 +1,16 @@
+<app-menu [darkMode]="router.url !== '/'"></app-menu>
 
-    <app-menu [darkMode]="router.url !== '/'"></app-menu>
+<div [class.container]="router.url !== '/'">
+    <!-- damit werden alle unterseiten die über den router eingebunden sind mit gestylt -->
+    <router-outlet></router-outlet>
+</div>
+<app-intro></app-intro>
+<app-skillset></app-skillset>
 
-    <div [class.container]="router.url !== '/'">
-        <!-- damit werden alle unterseiten die über den router eingebunden sind mit gestylt -->
-        <router-outlet></router-outlet>
-    </div>
-    <app-intro></app-intro>
-    <app-experience></app-experience>
-    <app-about-me></app-about-me>>
-    <app-footer [darkMode]="router.url !== '/'"></app-footer>
+<app-about-me></app-about-me>
+<app-my-projects></app-my-projects>
+<app-experience></app-experience>
+<app-github></app-github>
+
+<app-contact></app-contact>
+<app-footer [darkMode]="router.url !== '/'"></app-footer>

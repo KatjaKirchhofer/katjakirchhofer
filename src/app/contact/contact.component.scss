@@ -1,0 +1,43 @@
+p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+form {
+    // border: solid 1px red;
+    width: 90vw;
+    max-width: 500px;
+
+    .input {
+        width: 100%;
+        // max-width: 328px;
+        height: 50px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        background-color: #181823;
+        border: none;
+    }
+    label {
+        font-family: inherit;
+        text-align: left;
+    }
+    #textarea {
+        height: 150px;
+    }
+    .btn {
+        background-color: #5221E6;
+        color: white;
+        height: unset;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}
+@media(min-width: 500px) {
+    form {
+       width: 50vw;
+    }
+ }

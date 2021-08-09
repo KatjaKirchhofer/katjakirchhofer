@@ -1,0 +1,16 @@
+@media(min-width: 500px) {
+    .skillset-container {
+        padding-top: 120px;
+    }
+    .skills {
+        max-width: 30vw;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0 30px 30px 0;
+    }
+    .intro-skills {
+        max-width: 40vw;
+        padding: 0 30px;
+    }
+}

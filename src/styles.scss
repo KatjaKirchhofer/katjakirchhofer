@@ -3,10 +3,20 @@ body {
     margin: 0;
     font-family: 'Karla', sans-serif;
     color: white;
+    box-sizing: border-box;
 }
 .container-padding {
     padding: 3.125rem 1.875rem 3.125rem 1.875rem;
 }
+.black-container {
+    background-color: black;
+    margin-top: 0;
+}
+.white-container {
+    color: #333333;
+    background-color: white;
+}
+
 
 h1 {
     margin: 0;
@@ -25,10 +35,19 @@ h2 {
     line-height: 2.406rem;
     margin: 0;
 }
+h3 {
+    color: #5221E6;
+}
 h4 {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1em;
     line-height: 1.5rem;
     margin: 0;
+}
+@media(min-width: 500px) {
+    .flex-container {
+        display: flex;
+
+    }
 }
