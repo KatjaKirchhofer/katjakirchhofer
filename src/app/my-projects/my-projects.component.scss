@@ -1,6 +1,7 @@
 .card {
     width: 80vw;
     max-width: 500px;
+    position: relative;
 }
 
 .card-body {
@@ -13,7 +14,7 @@
     padding: 3.125rem 1.875rem 3.125rem 1.875rem;
 }
 .card-img-top {
-    width: 80vw;
+    width: 100%;
     margin-bottom: -10px;
     // max-width: 300px;
 }
