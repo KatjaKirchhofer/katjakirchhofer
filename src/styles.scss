@@ -10,11 +10,12 @@ body {
 }
 .black-container {
     background-color: black;
-    margin-top: 0;
+    margin: 0 auto;
 }
 .white-container {
     color: #333333;
     background-color: white;
+    margin: 0 auto;
 }
 
 
@@ -45,9 +46,31 @@ h4 {
     line-height: 1.5rem;
     margin: 0;
 }
-@media(min-width: 500px) {
+@media(min-width: 600px) { //über 600px!!
     .flex-container {
-        display: flex;
-
+      display: flex;
+    }
+    .img-container img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 0;
+        object-fit: cover;
+     
+    }
+    .img-container {
+        width: 40vw;
+    }
+    .section-container {
+        width: 60vw;
+    }
+}
+@media(min-width: 700px) {
+    .container-padding {
+        padding: 3.125rem 100px 3.125rem 100px;
+    }
+}
+@media(min-width: 1200px) {
+    .container-padding {
+        padding: 3.125rem 200px 3.125rem 200px;
     }
 }

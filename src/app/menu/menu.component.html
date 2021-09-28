@@ -1,14 +1,40 @@
-<header [class.headerDark]='darkMode'>
+<!-- <header class="container-padding"> -->
 
 
-    <img routerLink="/" src="assets/img/Logo.png">
-    <img class="menu-icon" src="assets/img/menu.png" alt="">
+    <!-- <img routerLink="/" src="assets/img/Logo.png">
+    <img class="menu-icon" src="assets/img/menu.png" alt=""> -->
 
-    <div class="menu-links">
-        <a href="#">About me</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+    <!-- <div class="menu-links">
+        <a href="javascript:;" (click)="scrollToArea('about-me')">About me</a>
+        <a href="javascript:;" (click)="scrollToArea('projects')">Projects</a>
+        <a href="javascript:;" (click)="scrollToArea('contact')">Contact</a>
 
-    </div>
+    </div> -->
 
-</header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          
+          <a  class="navbar-brand" href="#"><img routerLink="/" src="assets/img/Logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="javascript:;" (click)="scrollToArea('about-me')">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="javascript:;" (click)="scrollToArea('projects')">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="javascript:;" (click)="scrollToArea('contact')">Contact</a>
+              </li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+ 
+
+<!-- </header> -->

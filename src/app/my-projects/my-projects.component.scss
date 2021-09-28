@@ -1,22 +1,131 @@
 .card {
-    width: 80vw;
-    max-width: 500px;
-    position: relative;
-}
-
-.card-body {
+    width: 90vw;
+    max-width: 400px;
     background-color: white;
     color: black;
-    font-family: 'Karla', sans-serif;
-    // width: 90vw;
-    // max-width: 300px;
-    margin-top: 0;
-    padding: 3.125rem 1.875rem 3.125rem 1.875rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
 }
-.card-img-top {
-    width: 100%;
-    margin-bottom: -10px;
-    // max-width: 300px;
+
+.card-img {
+    object-fit: cover;
+    object-position: bottom;
+    flex-basis: 250px;
+    min-width: 0;
+    min-height: 0;
 }
+a {
+    align-items: center;
+    color: #8491A0;
+    text-decoration: none;
+    padding-top: 1.875rem;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 1em;
+    line-height: 1.5em;
+    display: block;
+}
+a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    color: black;
+}
+h3 {
+    color: #333333;
+}
+
+
+
+
+
+// .card {
+//     // width: 80vw;
+//     // max-width: 500px;
+//     position: relative;
+//     margin-top: 50px;
+//     margin-right: 30px;
+// }
+
+// .card-body {
+//     background-color: white;
+//     color: black;
+//     font-family: 'Karla', sans-serif;
+//     // width: 90vw;
+//     // max-width: 300px;
+//     margin-top: 0;
+//     padding: 3.125rem 1.875rem 3.125rem 1.875rem;
+// }
+// .card-img-top {
+//     width: 100%;
+//     margin-bottom: -10px;
+//     // max-width: 300px;
+// }
+// @media(max-width: 530px) { //bis 530px
+//     .card {
+//         width: 80vw;
+        
+//     }
+//     .card-body {
+//         background-color: red;
+//     }
+// }
+@media(min-width: 700px) { //über 700px
+  
+    .card-body {
+        background-color: pink;
+    }
+    .card {
+        width: 40vw;
+        max-width: 400px;
+    }
+    .container1 {
+        display: flex;
+        justify-content: center;
+    }
+    .container2 {
+        display: flex;
+        justify-content: center;
+    }
+    .card-content {
+        padding: 30px 30px;
+    }
+    .card-right {
+        margin-left: 30px;
+    }
+}
+
+// @media(min-width: 700px) { //bis 700px
+//     .project-container {
+//         display: flex;
+//         flex-wrap: wrap;
+
+//     }
+//     .card {
+//        width: 200px;
+//     //    flex-grow: 1;
+//     }
+//     .card-body {
+//         background-color: blue;
+//     }
+// }
+// @media(min-width: 1000px) { //über 1000px
+//     .project-container {
+//         display: flex;
+//         flex-wrap: wrap;
+
+//     }
+//     .card {
+//         width: 300px;
+//         flex-grow: 1;
+//      }
+//      .card-body {
+//         background-color: yellow;
+//     }
+// }
+
+
+
+
 
 

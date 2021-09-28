@@ -5,11 +5,29 @@ h4 {
 h2 {
    padding-bottom: 1rem;
 }
+// .img-handstand {
+//     width: 100vw;
+//     object-fit: cover;
+// }
 img {
-   width: 100vw;
+
+   object-fit: cover;
 }
-@media(min-width: 500px) {
-   img {
-      width: 50vw;
-   }
-}
+
+// @media(min-width: 600px) {
+//     .experience-container {
+//         display: flex;
+//     }
+//    .img-container img {
+//        width: 100%;
+//        height: 100%;
+//        margin-bottom: 0;
+//    }
+//    .img-container {
+//        width: 40vw;
+//    }
+  
+//    .flex-container {
+//     //    position: relative;
+      
+//    }

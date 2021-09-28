@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
@@ -16,6 +17,8 @@ import { MyProjectsComponent } from './my-projects/my-projects.component';
 import { GithubComponent } from './github/github.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { ContactComponent } from './contact/contact.component';
+import { SplitterComponent } from './splitter/splitter.component';
+
 
 @NgModule({
   declarations: [
@@ -32,7 +35,8 @@ import { ContactComponent } from './contact/contact.component';
     MyProjectsComponent,
     GithubComponent,
     TechnologiesComponent,
-    ContactComponent
+    ContactComponent,
+    SplitterComponent
   ],
   imports: [
     BrowserModule,
