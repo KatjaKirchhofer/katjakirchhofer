@@ -11,5 +11,8 @@ export class AboutMeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  scrollToArea(id) {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
 
 }

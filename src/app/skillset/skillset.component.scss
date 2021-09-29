@@ -1,40 +1,80 @@
-@media(min-width: 500px) {
-    .skillset-container {
-        padding-top: 120px;
-
-        .intro-skills {
-            max-width: 40vw;  
-          margin-right: 30px;
-        }
-    }
-    .skills {
-        max-width: 30vw;
-        padding: 0 30px 30px 0;
-    }
-    .skills-wrap {
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
+.skillset-container  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
    
-    .skills-margin-right p{
-        padding-right: 30px;
-    }
-    .flex-container {
-        display: flex;
-        flex-direction: row;
+}
+h2 {
+    margin-bottom: 20px;
+}
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skill-item h3 {
+    margin-top: 10px;
+}
+@media(max-width: 500px) {
+    .skillset-container  {
+       flex-direction: column;
+     
+        justify-content: space-around;
+        // align-items: center;
        
     }
 }
-@media(min-width: 1000px) {
-    .skills-wrap {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: unset;
-    }
-}
+
+
+
+// @media(min-width: 500px) {
+//     .skillset-container {
+//         padding-top: 120px;
+
+//         .intro-skills {
+//             max-width: 40vw;  
+//           margin-right: 30px;
+//         }
+//     }
+//     .skills {
+//         max-width: 30vw;
+//         padding: 0 30px 30px 0;
+//     }
+//     .skills-wrap {
+//         display: flex;
+//         justify-content: space-between;
+//         flex-wrap: wrap;
+//     }
+   
+//     .skills-margin-right p{
+//         padding-right: 30px;
+//     }
+//     .flex-container {
+//         display: flex;
+//         flex-direction: row;
+       
+//     }
+// }
+// @media(min-width: 1000px) {
+//     .skills-wrap {
+//         display: flex;
+//         flex-direction: row;
+//         flex-wrap: unset;
+//     }
+// }
 
 .intro-skills {
     width: 80vw;
   
 }
+ img {
+    
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+
+
+    }
+  
+

@@ -18,6 +18,14 @@ import { GithubComponent } from './github/github.component';
 import { TechnologiesComponent } from './technologies/technologies.component';
 import { ContactComponent } from './contact/contact.component';
 import { SplitterComponent } from './splitter/splitter.component';
+import { HomeComponent } from './home/home.component';
+import {MatButtonModule} from '@angular/material/button';
+import {MatTabsModule} from '@angular/material/tabs';
+import { AngularComponent } from './my-projects/angular/angular.component';
+import { JavascriptComponent } from './my-projects/javascript/javascript.component';
+import { CssComponent } from './my-projects/css/css.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 
 
 @NgModule({
@@ -36,11 +44,18 @@ import { SplitterComponent } from './splitter/splitter.component';
     GithubComponent,
     TechnologiesComponent,
     ContactComponent,
-    SplitterComponent
+    SplitterComponent,
+    HomeComponent,
+    AngularComponent,
+    JavascriptComponent,
+    CssComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MatButtonModule,
+    MatTabsModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

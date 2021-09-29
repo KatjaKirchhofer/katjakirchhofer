@@ -6,9 +6,10 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { IntroComponent } from './intro/intro.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: '', component: SlideshowComponent},
+  { path: '', component: HomeComponent},
   { path: 'imprint', component: ImprintComponent},
   { path: 'data-protection', component: DataProtectionComponent},
   { path: 'intro', component: IntroComponent},

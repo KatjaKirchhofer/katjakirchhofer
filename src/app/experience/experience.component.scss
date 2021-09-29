@@ -9,9 +9,21 @@ h2 {
 //     width: 100vw;
 //     object-fit: cover;
 // }
-img {
 
+.img-container {
+   width: 100vw;
+}
+img {
+   width: 100%;
    object-fit: cover;
+}
+@media(min-width: 600px) {
+   .img-container {
+      width: 40vw;
+   }
+   .section-container {
+      width: 60vw;
+   }
 }
 
 // @media(min-width: 600px) {
